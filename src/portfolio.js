@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Syauqy Syamil Muhammad",
-  title: "Hello Everyone, I'm Syauqy Syamil Muhammad",
+  title: "Hello Everyone, I'm Syauqy",
   subTitle: emoji(
     "Graduated with a Bachelor's degree in Chemical Engineering from Islamic University of Indonesia, coupled with the latest certification as a General Occupational Safety and Health Expert (AHLI K3 Umum) from the Ministry of Manpower (Kemnaker RI). Additionally, brings valuable experience gained through active participation in campus organizations, honing leadership and teamwork skills. Eager to utilize academic foundation and practical insights to make meaningful contributions in the professional field."
   ),
@@ -35,7 +35,6 @@ const greeting = {
 const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/syauqysyamil//",
   instagram: "https://www.instagram.com/syauqysm/",
-  github: "https://github.com/saadpasta",
   gmail: "sm.syauqy@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -45,16 +44,13 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do?",
+  title: "Software Proficiencies",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("🏭 Aspen HYSYS"),
+    emoji("🗃️ Microsoft Project"),
+    emoji("💼 Microsoft Office"),
+    emoji("🖼️ CorelDRAW")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -123,17 +119,20 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Islamic University of Indonesia",
+      logo: require("./assets/images/blueuiiLogo.png"),
+      subHeader: "Bachelor's degree in Chemical Engineering",
+      duration: "September 2019 - October 2023",
+      desc: "Accreditated by BAN-PT: Excellent", 
+            "Relevant coursework: Operation Chemical Engineering, Chemical Engineering System Optimization, Quality Control, Chemical Engineering Process Control, Chemical Plant Design, Chemical Reactor, Chemical Engineering Thermodynamics, Utility", 
+            "Undergraduate Thesis: Pre-design of Phenyl Ethyl Alcohol Plant from Styrene Oxide and Hydrogen with Capacity 4,000 Tonnes/Year"
+",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "",
+        ""
       ]
     },
-    {
+    /{
       schoolName: "Stanford University",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
@@ -147,7 +146,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
